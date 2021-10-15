@@ -1,0 +1,46 @@
+[
+    {
+        "driverId": "490bc017-3146-46e0-bb7b-5ed4ce64254a",
+        "driverName": "Tor",
+        "driverSurnane": "Raswill",
+        "address": "Testgatan 1",
+        "postal": "Göteborg",
+        "zip": 12345,
+        "phone": "+46 701 23 45 67",
+        "mail": "tor@test.com",
+        "vehicleModel": 1
+    },
+    {
+        "driverId": "03974ba3-b10f-4172-96f7-73fd40795a39",
+        "driverName": "Mikael",
+        "driverSurnane": "Flood",
+        "address": "Testgatan 2",
+        "postal": "Göteborg",
+        "zip": 12345,
+        "phone": "+46702345678",
+        "mail": "mikael@test.com",
+        "vehicleModel": 2
+    },
+    {
+        "driverId": "7f355177-9137-4dca-8588-bbbbea88684a",
+        "driverName": "Torsten",
+        "driverSurnane": "Beckman",
+        "address": "Testgatan 3",
+        "postal": "Göteborg",
+        "zip": 12345,
+        "phone": "0702345690",
+        "mail": "torsten@test.com",
+        "vehicleModel": 3
+    },
+    {
+        "driverId": "a620b750-3e3f-4201-b2bc-c326332c7146",
+        "driverName": "Test",
+        "driverSurnane": "Testsson",
+        "address": "Testgatan 4",
+        "postal": "Göteborg",
+        "zip": 12345,
+        "phone": "0046720 14 58 94",
+        "mail": "test@test.com",
+        "vehicleModel": 4
+    }
+]

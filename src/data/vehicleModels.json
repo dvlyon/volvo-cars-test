@@ -1,0 +1,18 @@
+[
+    {
+        "vehicleModel": 1,
+        "vehicleName": "XC90"
+    },
+    {
+        "vehicleModel": 2,
+        "vehicleName": "XC60"
+    },
+    {
+        "vehicleModel": 3,
+        "vehicleName": "V70"
+    },
+    {
+        "vehicleModel": 4,
+        "vehicleName": "S40"
+    }
+]

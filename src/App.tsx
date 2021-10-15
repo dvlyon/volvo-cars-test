@@ -1,26 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { DataProvider } from './contexts/DataContext'
+import DriversList from './components/DriversList'
+import DriverModal from './components/DriverModal'
+import CssBaseline from '@mui/material/CssBaseline'
+import Typography from '@mui/material/Typography'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <DataProvider>
+      <CssBaseline />
+      <Typography variant="h1" sx={{ textAlign: 'center' }}>
+        David Lyon - Volvo Test
+      </Typography>
+      <DriversList />
+      <DriverModal />
+    </DataProvider>
+  )
 }
 
-export default App;
+export default App
